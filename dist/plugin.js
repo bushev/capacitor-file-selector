@@ -48,6 +48,8 @@ var capacitorPlugin = (function (exports, core) {
     exports.FileSelector = FileSelector;
     exports.FileSelectorWeb = FileSelectorWeb;
 
+    Object.defineProperty(exports, '__esModule', { value: true });
+
     return exports;
 
 }({}, capacitorExports));

@@ -1,9 +1,4 @@
 import { PluginListenerHandle } from "@capacitor/core";
-declare module '@capacitor/core' {
-    interface PluginRegistry {
-        FileSelector: FileSelectorPlugin;
-    }
-}
 export interface FileSelectorPlugin {
     fileSelector(options: {
         id?: string;
